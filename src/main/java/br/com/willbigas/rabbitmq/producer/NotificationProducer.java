@@ -1,6 +1,6 @@
 package br.com.willbigas.rabbitmq.producer;
 
-import br.com.willbigas.rabbitmq.config.RabbitConfig;
+import br.com.willbigas.rabbitmq.config.NotificationQueueConfig;
 import br.com.willbigas.rabbitmq.dto.NotificationMessage;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
@@ -20,8 +20,8 @@ public class NotificationProducer {
         System.out.println("Sending: " + message);
 
         rabbitTemplate.convertAndSend(
-            RabbitConfig.EXCHANGE_NAME,
-            RabbitConfig.ROUTING_KEY,
+            NotificationQueueConfig.EXCHANGE_NAME,
+            NotificationQueueConfig.ROUTING_KEY,
             message
         );
 
