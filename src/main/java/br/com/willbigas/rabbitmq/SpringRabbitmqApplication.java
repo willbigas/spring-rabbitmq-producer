@@ -1,4 +1,4 @@
-package br.com.willbigas.springrabbitmq;
+package br.com.willbigas.rabbitmq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package br.com.willbigas.springrabbitmq.controller;
+package br.com.willbigas.rabbitmq.controller;
 
-import br.com.willbigas.springrabbitmq.producer.NotificationProducer;
+import br.com.willbigas.rabbitmq.producer.NotificationProducer;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

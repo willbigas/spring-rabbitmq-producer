@@ -1,4 +1,4 @@
-package br.com.willbigas.springrabbitmq.dto;
+package br.com.willbigas.rabbitmq.dto;
 
 import java.io.Serializable;
 
