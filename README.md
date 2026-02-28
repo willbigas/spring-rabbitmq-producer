@@ -44,6 +44,4 @@ A mensagem será serializada em JSON e enviada para o RabbitMQ.
 
 ## Arquitetura do Sistema
 
-Veja o desenho de arquitetura no arquivo [`ARQUITETURA.md`](ARQUITETURA.md).
-
 > O fluxo é: Usuário → API Producer → RabbitMQ → Consumer → File/DB
